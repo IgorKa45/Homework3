@@ -83,15 +83,15 @@ public class Main {
         short milk2 = (short) (milk/100);
         short milk3 = (short) (milk1 * milk2); //Масса молока в граммах
 
-        byte ice_cream = 2; //Брикетов мороженного
-        byte ice_cream1 = 100; //Масса 1го брикета в граммах
-        short ice_cream2 = (short) (ice_cream1 * ice_cream); //Масса мороженного в граммах
+        byte iceСream = 2; //Брикетов мороженного
+        byte iceСream1 = 100; //Масса 1го брикета в граммах
+        short iceСream2 = (short) (iceСream1 * iceСream); //Масса мороженного в граммах
 
         byte eggs = 4; //Кол-во яиц
         byte eggs1 = 70; //Масса 1го яйца в граммах
         short eggs2 = (short) (eggs1 * eggs);//Масса мороженного в граммах
 
-        short sportFood = (short) (banana2 + milk3 + ice_cream2 + eggs2);
+        short sportFood = (short) (banana2 + milk3 + iceСream2 + eggs2);
 
         int grPerKg = 1000;
         float sportFood1 = sportFood/(float)grPerKg;
